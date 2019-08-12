@@ -1,0 +1,108 @@
+
+/*侧边导航栏*/
+.out{
+	margin-left: 12%;
+    margin-top: -3.85%;
+    width: 136px;
+    text-align: center;
+}
+.out ul{
+	
+	background-color: #00a0e9;	
+}
+.out a{
+	font-family: "黑体";
+}
+.out li{
+	padding: 20px;
+}
+.out li:hover{
+	background-color: #0062a3;
+}
+.out li:hover>a::after{
+	content: ">";
+	margin-left: 10px;
+}
+/*END 侧边导航栏*/
+
+/*content*/
+.content .top{
+	width: 905px;
+	height: 166px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+.top span{
+	color: #333;
+	font-family: "黑体";
+	border:1px solid rgba(0,160,233,0);
+}
+.top hr{
+	width: 100%;
+	border:none;
+	background-color:#00a0e9;
+	height:2px;
+	outline-color: rgba(0,160,233,.3);
+}
+.top .index{
+	color: #00a0e9;
+}
+.index::after{
+	content: ">";
+	color: #333;
+}
+
+/*内容*/
+.content{
+	width: 905px;
+	height: 100%;
+    margin: 0 auto;
+	margin-left: 30%;
+	
+}
+ .content .btm{
+ 	width: 905px;
+ 	height: 942px;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	flex-direction: column;
+ }
+.content .btm ul{
+ 	width: 905px;
+ 	height: 413px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ }
+.content .btm li{
+ 	color: #333;
+ 	font-size: 14px;
+ }
+
+.content .btm form{
+	width: 486px;
+	margin-top: 38px;
+	height: 475px;
+	color: #ccc;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.content .btm input{
+	width: 486px;
+	height: 34px;
+	border: 1px solid #ccc;
+}
+.content .btm textarea{
+	width: 486px;
+	height: 321px;
+}
+.content form>button{
+	width: 70px;
+	height: 30px;
+	color: #333;
+	background-color: #ccc;
+	align-self: flex-end;
+}
+/*END 内容*/

@@ -1,0 +1,159 @@
+
+/*侧边导航栏*/
+.out{
+	margin-left: 12%;
+    margin-top: -3.85%;
+    width: 136px;
+    text-align: center;
+}
+.out ul{
+	
+	background-color: #00a0e9;	
+}
+.out a{
+	font-family: "黑体";
+}
+.out li{
+	padding: 20px;
+}
+.out li:hover{
+	background-color: #0062a3;
+}
+.out li:hover>a::after{
+	content: ">";
+	margin-left: 10px;
+}
+/*END 侧边导航栏*/
+
+/*content*/
+.content .top{
+	width: 905px;
+	height: 166px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+.top span{
+	color: #333;
+	font-family: "黑体";
+	border:1px solid rgba(0,160,233,0);
+}
+.top hr{
+	width: 100%;
+	border:none;
+	background-color:#00a0e9;
+	height:2px;
+	outline-color: rgba(0,160,233,.3);
+}
+.top .index{
+	color: #00a0e9;
+}
+.index::after{
+	content: ">";
+	color: #333;
+}
+.top .new::after{
+	content: ">";
+	color: #333;
+}
+
+/*内容*/
+.content{
+	width: 905px;
+	height: 100%;
+    margin: 0 auto;
+	margin-left: 30%;
+}
+ .btm{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+ }
+ .btm .btm-left{
+ 	width: 303px;
+ 	height: 384px;
+ 	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btm-left img{
+	width: 303px;
+	height: 217px;
+}
+.btm-left span{
+	height: 79px;
+	font-size: 14px;
+	font-family: "黑体";
+	text-indent: 2em;
+	text-align: justify;
+}
+ .btm .btm-right{
+ 	width: 536px;
+ 	height: 570px;
+ }
+ .btm .btm-right>div{
+ 	height: 58px;
+ 	margin:14px 0;
+ 	overflow: hidden;
+ }
+ .btm-right img{
+ 	width: 52px;
+ 	height: 38px;
+ 	float: left;
+ 	margin-right: 19px;
+ }
+.btm-right .text{
+	width: 465px;
+	height: 38px;
+	font-size: 14px;
+	font-family: "黑体";
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.btm-right div>div{
+	height: 10px;
+ 	width: 465px;
+ 	border:2px dashed rgba(51,51,51,0);
+	border-bottom:2px dashed #333;	
+}
+
+ 
+
+ /*选页*/
+ .next{
+ 	width: 536px;
+ 	height: 32px;
+ 	margin:60px 0 46px 0;
+ }
+ .next div{
+ 	float: left;
+ 	width: 32px;
+ 	height: 32px;
+ 	text-align: center;
+ 	line-height: 32px;
+	border: 1px solid #bfbfbf;
+ }
+ .next div:first-child{
+ 	width: 70px;
+ }
+ .next a{
+ 	font-size: 18px;
+ 	color: #3f5a77;
+	font-family: "黑体";
+ }
+ .next div:nth-child(3){
+ 	background-color: #3f5a77;
+ }
+  .next div:nth-child(3)>a{
+ 	color: #fff;
+  }
+ .next div:hover{
+ 	background-color: #3f5a77;
+ }
+ .next div:hover>a{
+ 	background-color: #3f5a77;
+ 	color: #fff;
+ }
+
+/*END 内容*/

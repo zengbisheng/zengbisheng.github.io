@@ -1,0 +1,155 @@
+/*主体*/
+/*nav*/
+.nav{
+	width: 100%;
+	height:158px;
+}
+.nav>.top{
+	width: 1201px;
+	height: 120px;
+	margin: 0 auto;
+}
+.nav>.top>img{
+	display: block;
+}
+.nav>.top>img:first-child{
+	width: 391px;
+	height: 94px;
+	float: left;
+	margin-top: 14px;
+}
+.nav>.top>img:last-child{
+	width: 275px;
+	height: 35px;
+	float: right;
+	margin-top: 42px;
+}
+.nav>.btm{
+	width: 100%;
+	height:38px;
+	min-width: 680px;
+	position: relative;
+	background-color: #3f5a77;
+}
+.nav>.btm>.left{
+	display: block;
+	width: 792px;
+	margin-left: 9.7%;
+}
+.nav>.btm>.left>ul>li{
+	padding: 0 9px;
+	height: 38px;
+	float: left;
+	text-align: center;
+	margin-right: 42px;
+	line-height: 38px;
+}
+.nav>.btm>.left>ul>li:hover{
+	background-color: #019fe8;
+}
+.nav>.btm>.left>ul>li:last-child{
+	margin-right: 0;
+}
+.nav>.btm>.left>ul>li>a{
+	text-decoration: none;
+	font-family: "黑体";
+}
+
+/*下拉项*/
+/*设置下拉项无外边距*/
+.nav>.btm>.left>ul>.items{
+	padding: 0;
+	margin:0;
+	position: relative;
+	text-decoration: none;
+}
+/*设置下拉项的位置并且隐藏*/
+.nav>.btm>.left>ul>.items>ul{
+	display: none;
+	width: 90px;
+	position: absolute;
+	background-color: #019fe8;
+	left: -132px;
+    top: 37px;
+}
+.nav a{
+	font-family: "黑体";
+}
+/*当悬停在li上则显示下拉项*/
+.nav>.btm>.left>ul>li:hover+.items>ul{
+ 	display: block;
+}
+/*鼠标悬停在下拉项上*/
+.nav>.btm>.left>ul>.items>ul:hover{
+	display: block;
+}
+/*悬停在下拉项的单项上，背景色改变*/
+.nav>.btm>.left>ul>.items>ul>li:hover{
+	background-color: #3f5a77;
+}
+/*END 下拉项*/
+
+.nav>.btm>.right{
+	width: 219px;
+	height: 25px;
+	display: flex;
+    position: absolute;
+    right: 7%;
+    top: 7px;
+    justify-content: space-between;
+	background-color: #fff;
+}
+.nav>.btm>.right>input{
+	margin-left: 9px;
+}
+.nav>.btm>.right>button{
+	width: 38px;
+	height: 26px;
+	background-color: #019fe8;
+}
+.nav>.btm>.right img{
+	width: 14px;
+	height: 14px;
+	margin: 0;
+}
+/*END nav*/
+
+/*banner*/
+.banner{
+	width: 100%;
+	height: 100%;
+}
+.banner>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.banner>.btm{
+	width: 100%;
+	height: 19px;
+	opacity: .5;
+	background-color: #000;
+	margin-top: -19px;
+	z-index: 2;
+}
+.banner>.btm>img{
+	display: block;
+	margin: 4px auto;
+}
+/* END banner */
+
+/*footer*/
+ .footer{
+	width: 100%;
+	height: 30px;
+	background-color: #3f5a77;
+}
+.footer>span{
+	display: block;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+} 
+/*END footer*/
+/*END 主体

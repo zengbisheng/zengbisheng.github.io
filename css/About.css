@@ -1,0 +1,110 @@
+.nav .left .guangyu{
+	background-color: #029fe7;
+}
+
+
+/*侧边导航栏*/
+.out{
+	margin-left: 12%;
+    margin-top: -3.85%;
+    width: 136px;
+    text-align: center;
+}
+.out ul{
+	
+	background-color: #00a0e9;	
+}
+.out a{
+	font-family: "黑体";
+}
+.out li{
+	padding: 20px;
+}
+.out li:hover{
+	background-color: #0062a3;
+}
+.out li:hover>a::after{
+	content: ">";
+	margin-left: 10px;
+}
+/*END 侧边导航栏*/
+
+/*content*/
+.content{
+	width: 905px;
+	height: 100%;
+    margin: 0 auto;
+	margin-left: 30%;
+}
+.content .top{
+	width: 905px;
+	height: 166px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+.top span{
+	color: #333;
+	font-family: "黑体";
+	border:1px solid rgba(0,160,233,0);
+}
+.top hr{
+	width: 100%;
+	border:none;
+	background-color:#00a0e9;
+	height:2px;
+	outline-color: rgba(0,160,233,.3);
+}
+.index{
+	color: #00a0e9;
+}
+.index::after{
+	content: ">";
+	color: #333;
+}
+.about{
+	color: #00a0e9;
+}
+.about::after{
+	content: ">";
+	color: #333;
+}
+
+/*内容*/
+ .content .btm{
+	width: 905px;
+	height: 1147px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
+}
+ .content .btm>div:first-child{
+	align-self: center;
+	color: #333333;
+	letter-spacing: 2px;
+}
+ .content .btm>div:nth-child(2){
+	width: 905px;
+	height: 1058px;
+	
+	text-align: justify;
+}
+.content .text{
+	height: 700px;
+}
+.text span{
+	font-size: 14px;
+	text-indent: 2em;
+	display: block;
+    margin-bottom: 25px;
+    font-family: "宋体";
+    letter-spacing: 2px;
+    color: #494949;
+    line-height: 26px;
+}
+.content .imgage{
+	display: flex;
+	justify-content: space-between;
+}
+/*END 内容*/

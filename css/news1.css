@@ -1,0 +1,77 @@
+
+
+/*content*/
+.content{
+	width: 1200px;
+	height: 3154px;
+    margin: 0 auto;
+	margin-right: 5%;
+}
+.content .top{
+	width: 100%;
+	margin: 60px 0;
+}
+.top span{
+	color: #333;
+	font-family: "黑体";
+	border:1px solid rgba(0,160,233,0);
+}
+.top hr{
+	width: 100%;
+	border:none;
+	background-color:#00a0e9;
+	height:2px;
+	outline-color: rgba(0,160,233,.3);
+}
+.top .index{
+	color: #00a0e9;
+}
+.index::after{
+	content: ">";
+	color: #333;
+}
+.top .new{
+	color: #00a0e9;
+}
+.new::after{
+	content: ">";
+	color: #333;
+}
+
+/*内容*/
+.btm{
+	width: 1118px;
+	height: 2929px;
+	margin: 0 auto;
+}
+.btm .box1{
+	height: 112px;
+	font-family: "黑体";
+	font-size:24px;
+	display: flex;
+	flex-direction: column;
+}
+.btm .box2{
+	height: 2817px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-self: center;
+}
+.btm>.box2 span{
+	font-family: "黑体";
+	font-size: 14px;
+}
+.btm>.box2 img{
+	width: 592px;
+	height: 399px;
+}
+.btm>.box2>div{
+	width: 1118px;
+    height: 810px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/*END 内容*/
